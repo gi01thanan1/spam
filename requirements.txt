@@ -1,0 +1,9 @@
+streamlit==1.41.1
+numpy<=1.26.4
+pandas==2.2.3
+string
+PorterStemmer
+
+scikit-learn==1.2.2
+
+joblib<=1.4.2
