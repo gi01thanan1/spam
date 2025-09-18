@@ -29,6 +29,6 @@ def custom_tokenizer(text):
     stemmed = [stemmer.stem(word) for word in text]
     return stemmed
 
-pg = st.navigation([st.Page("Home.py",title="Welcome", icon="👋"), st.Page("preprocessing.py"),st.Page("spam_Prediction.py",title="spam prediction")])#":material/target:")])
+pg = st.navigation([st.Page("Home.py",title="Welcome", icon="👋"), st.Page("preprocessing.py"),st.Page("spam_prediction.py",title="spam prediction")])#":material/target:")])
 
 pg.run()
